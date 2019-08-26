@@ -4,10 +4,11 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <UseWPF>true</UseWPF>
+    <Platforms>x64;x86</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\x64\Debug\TheDependency.dll">
+    <None Include="..\$(platform)\$(configuration)\TheDependency.dll">
       <Link>TheDependency.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
