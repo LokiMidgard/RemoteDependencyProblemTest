@@ -10,6 +10,9 @@
     Height="450"
     mc:Ignorable="d">
     <Grid>
-        <Button x:Name="button" Click="Button_Click" />
+        <Button
+            x:Name="button"
+            Click="Button_Click"
+            Content="Click Me to calculate 3+3 in native DLL" />
     </Grid>
 </Window>
